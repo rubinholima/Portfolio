@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+
+
+
+html,
+body {
+    background-image: url(../images/11.jpg);
+    background-size: cover;
+}
+
+h1 {
+    margin: 20px 0px 20px 0px !important;
+    font-family: 'Pacifico', cursive !important;
+    text-align: center;
+    background-color: rgb(74, 163, 230);
+    padding: 20px;
+}
+
+
+
+p {
+    background-color: rgb(74, 163, 230);
+    font-family: 'Rajdhani', sans-serif;
+    text-align: justify;
+    font-style: italic;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.box {
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    height: 150px;
+    border: 2px solid #000;
+    background-color: rgb(19, 125, 218);
+}
+
+img {
+    height: 100px;
+}
+
+.gems {
+    margin-top: 5px;
+    margin-left: 138px;
+    height: 105px;
+    background-color: rgb(27, 94, 194);
+    border: 3px solid black !important;
+}
+
+#magicNumber {
+    font-size: 110px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: -148px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+#win {
+    font-size: 35px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: -123px;
+    color: aliceblue;
+    text-align: left;
+    padding-left: 20px;
+    background-color: rgba(24, 24, 57, 0.6);
+
+
+}
+
+#loss {
+    font-size: 35px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: -19px;
+    color: aliceblue;
+    text-align: left;
+    padding-left: 20px;
+    background-color: rgb(218, 36, 19, 0.6);
+
+}
+
+#score {
+    font-size: 110px;
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: -148px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+#loseColor {
+    background-color: rgb(218, 36, 19, 0.8);
+    color: white;
+}
+
+#winColor {
+    background-color: rgba(29, 29, 166, 0.8);
+    color: white;
+}

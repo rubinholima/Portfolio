@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+
+    <!-- reset file and style.css   -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+    <!-- Javascript file game.js -->
+    <script src="./assets/javascript/game.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>CrystalsCollector!</h1>
+        <p>
+            You will given a random number at the start of the game. There are four crystals below. By Clicking on a
+            crystal you will add a specific amount to your total score. You win the game by matching your total score to
+            random number, you lose the game if your total score goes above the random number.
+            The Value of each crystal is hidden from you until you click on it.
+        </p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="box">The Magic Number</div>
+                <div id="magicNumber"></div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="box">Win / Loss</div>
+                <div id="win">WINS ........ : 0 </div> <br>
+                <div id="loss">LOSSES ..... : 0 </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="box">Your Score Is</div>
+                <div id="score">00</div>
+            </div>
+        </div>
+
+        <div id="youLose" style="display: none">
+
+            <h1 id="loseColor">You Lose, Try Again!</h1>
+
+            <div class="container-fluid">
+                <div class="col-sm-12 text-center">
+                    <button type="button" class="btn btn-primary center-block">Play Again?</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="youWin" style="display: none">
+
+            <h1 id="winColor">Congratulations - You Win!</h1>
+
+            <div class="container-fluid">
+                <div class="col-sm-12 text-center">
+                    <button type="button" class="btn btn-primary center-block">Play Again?</button>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="gemsButton">
+            <button class="gems" id="gem1"><img src="./assets/images/Gem1.png"></button>
+            <button class="gems" id="gem2"><img src="./assets/images/Gem2.png"></button>
+            <button class="gems" id="gem3"><img src="./assets/images/Gem3.png"></button>
+            <button class="gems" id="gem4"><img src="./assets/images/Gem4.png"></button>
+        </div>
+
+    </div>
+</body>
+
+</html>
