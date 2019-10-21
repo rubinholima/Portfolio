@@ -23,9 +23,9 @@ body {
 
 .jumbotron {
 
-    margin-top: 190px;
-    margin-right: 128px;
-    margin-left: 123px;
+    margin-top: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
     height: 380px;
     background-color: rgba(201, 101, 14, 0.9) !important;
 }
@@ -43,21 +43,16 @@ div {
 }
 
 .correct {
-
-    position: absolute;
-    margin-top: 88px;
-    top: 440px;
-    left: 231px;
+    margin-top:92px;
     font-size: 20px;
     color: antiquewhite;
+    
    
 }
 
 .incorrect {
-    position: absolute;
-    margin-top: 88px;
-    top: 440px;
-    left: 450px;
+    
+    margin-top:15px;
     font-size: 20px;
     color: antiquewhite;
     
