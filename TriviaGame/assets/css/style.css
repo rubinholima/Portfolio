@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+
+html,
+body {
+
+    background: url(../images/01.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#timeRe {
+    margin-top: -50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.jumbotron {
+
+    margin-top: 190px;
+    margin-right: 128px;
+    margin-left: 123px;
+    height: 380px;
+    background-color: rgba(201, 101, 14, 0.9) !important;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+#start_button {
+
+    font-size: 30px;
+    display: block;
+    max-width: 300px;
+    margin: auto;
+}
+
+.correct {
+
+    position: absolute;
+    margin-top: 88px;
+    top: 440px;
+    left: 231px;
+    font-size: 20px;
+    color: antiquewhite;
+   
+}
+
+.incorrect {
+    position: absolute;
+    margin-top: 88px;
+    top: 440px;
+    left: 450px;
+    font-size: 20px;
+    color: antiquewhite;
+    
+
+}
+
+#question {
+
+    margin-top: 30px;
+    margin-right: -20px;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+.btn-info {
+
+    margin-right: 20px;
+
+}
+
+#choices {
+
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+
+}
+
