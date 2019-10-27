@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap');
+
+html,
+body {
+
+    background: url(../images/3.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#titleWeb {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Spicy Rice', cursive;
+    color: rgb(4, 78, 158);
+}
+
+.btn-info {
+
+    margin-right: 5px;
+
+}
+
+#buttons {
+
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 51px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+   
+
+
+}
+
+img {
+    margin: 24px -13px 0px 0px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    width: 300px;
+
+}
+
+.img-thumbnail {
+   height: 200px !important ;
+}
+
+#rating {
+    margin-top: 21px;
+    margin-bottom: -23px;
+}
+
+.side-side {
+    float: left;
+    margin-left: 20px;
+}
+
+.container {
+    margin-left:11% !important;
+}
